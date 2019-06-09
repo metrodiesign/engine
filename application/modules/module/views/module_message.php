@@ -68,16 +68,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div id="container">
-	<h1>Welcome to Person in module/module</h1>
+	<h1>Welcome to Module</h1>
 
 	<div id="body">
 		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
 
 		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/modules/module/views/welcome_message.php</code>
+		<code>application/modules/module/views/module_message.php</code>
 
 		<p>The corresponding controller for this page is found at:</p>
-		<code>application/modules/module/controllers/Welcome.php</code>
+		<code>application/modules/module/controllers/Module.php</code>
 
 		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
 	</div>
