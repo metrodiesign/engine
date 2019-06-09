@@ -1,0 +1,12 @@
+<?php
+defined('BASEPATH') || exit('No direct script access allowed');
+
+class MY_Form_validation extends CI_Form_validation
+{
+    public function run($module = '', $group = '')
+    {
+        (is_object($module)) && $this->CI = &$module;
+
+        return parent::run($group);
+    }
+}
